@@ -21,12 +21,13 @@
   <script>
     var app = new Vue({
       el: '#app',
-      data: {
+      data() { return {
         message: 'Hello Vue!',
         skillset: {"Language": ["C#","VB"],
                    "OS": ["Windows","Linux","Mac"],
                    "Database": ["Oracel", "Microsoft SQL", "MYSQL","Access"]
                 }
+          }
       }
   })
   </script>
