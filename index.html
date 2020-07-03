@@ -8,13 +8,25 @@
 <h3>Welcome!</h3>
   <div id="app">
   {{ message }}
+    <ul>
+      <li v-for="category in skillset">
+        {{category}}
+        <ul>
+          <li v-for="i in category">{{i}}</li>
+        </ul>
+      </li>
+    </ul>
 </div>
   
   <script>
     var app = new Vue({
       el: '#app',
       data: {
-        message: 'Hello Vue!'
+        message: 'Hello Vue!',
+        skillset: {"Language": ["C#","VB"],
+                   "OS": ["Windows","Linux","Mac"],
+                   "Database": ["Oracel", "Microsoft SQL", "MYSQL","Access"]
+                }
       }
   })
   </script>
