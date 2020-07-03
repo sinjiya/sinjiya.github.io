@@ -9,10 +9,10 @@
   <div id="app">
   {{ message }}
     <ul>
-      <li v-for="category in skillset">
-        {{category}}
+      <li v-for="(key, index) in skillset">
+        {{key}}
         <ul>
-          <li v-for="i in category">{{i}}</li>
+          <li v-for="i in key">{{i}}</li>
         </ul>
       </li>
     </ul>
