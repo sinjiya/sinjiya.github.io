@@ -9,10 +9,10 @@
   <div id="app">
   {{ message }}
     <ul>
-      <li v-for="(key, index) in skillset">
-        {{key}}
+      <li v-for="(category, index) in skillset" :key="index">
+        {{index}}
         <ul>
-          <li v-for="i in key">{{i}}</li>
+          <li v-for="item in category">{{item}}</li>
         </ul>
       </li>
     </ul>
@@ -23,10 +23,10 @@
       el: '#app',
       data() { return {
         message: 'Hello Vue!',
-        skillset: [{"Language": ["C#","VB"],
+        skillset: {"Language": ["C#","VB"],
                    "OS": ["Windows","Linux","Mac"],
                    "Database": ["Oracel", "Microsoft SQL", "MYSQL","Access"]
-                }]
+                }
           }
       }
   })
