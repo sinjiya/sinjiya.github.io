@@ -1,2 +1,2 @@
 # sinjiya.github.io
-# Sinji Yang's GitHub Homepahe
+# Sinji Yang's GitHub Homepage
