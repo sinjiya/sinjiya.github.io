@@ -1,4 +1,4 @@
-import{TableauViz as r}from"https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js";import{r as s,a0 as p,o as m,a1 as h,a2 as e,a3 as b,n as t,a4 as n,a5 as l,b as a,a8 as _,a as i}from"./index.b76b27ba.js";const f=a("h1",null,"Teableau Embedding 3 & Vue Composition API",-1),v=a("h3",null,"Sample code",-1),g=a("span",{class:"file-name"},"views/TableauEmbeddingApi.vue",-1),w=a("figure",null,[a("pre",null,[i(`    
+import{TableauViz as r}from"https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js";import{r as s,a0 as p,o as m,a1 as h,a2 as e,a3 as b,n as t,a4 as n,a5 as l,b as a,a8 as _,a as i}from"./index.ddd9d2eb.js";const f=a("h1",null,"Teableau Embedding 3 & Vue Composition API",-1),v=a("h3",null,"Sample code",-1),g=a("span",{class:"file-name"},"views/TableauEmbeddingApi.vue",-1),w=a("figure",null,[a("pre",null,[i(`    
         `),a("code",{class:"code-block"},`
     <script setup>
     import { ref, onMounted} from 'vue'
